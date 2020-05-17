@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/emmettpalaima/Desktop/KiCadProjects/SpeakersShiftReg/SpeakersShiftReg.sch)
-    (date "Saturday, 16 May 2020 at 21:54:45")
+    (date "Saturday, 16 May 2020 at 22:36:05")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -449,10 +449,10 @@
       (node (ref U1) (pin 14)))
     (net (code 13) (name S_CLK)
       (node (ref U1) (pin 11))
-      (node (ref J10) (pin 2)))
-    (net (code 14) (name CS)
-      (node (ref U1) (pin 12))
       (node (ref J10) (pin 3)))
+    (net (code 14) (name CS)
+      (node (ref J10) (pin 2))
+      (node (ref U1) (pin 12)))
     (net (code 15) (name CLEAR)
       (node (ref R1) (pin 2))
       (node (ref J10) (pin 5))

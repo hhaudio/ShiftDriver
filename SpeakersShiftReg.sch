@@ -799,9 +799,9 @@ F 3 "~" H 7850 2200 50  0001 C CNN
 $EndComp
 Text GLabel 8150 1900 2    50   Input ~ 0
 S_DAT
-Text GLabel 8150 2000 2    50   Input ~ 0
-S_CLK
 Text GLabel 8150 2100 2    50   Input ~ 0
+S_CLK
+Text GLabel 8150 2000 2    50   Input ~ 0
 CS
 Text GLabel 8150 2300 2    50   Input ~ 0
 CLEAR

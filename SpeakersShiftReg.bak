@@ -972,13 +972,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x08_Male J13
 U 1 1 5EDE6D3F
-P 8600 5600
-F 0 "J13" H 8708 6081 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 8708 5990 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8600 5600 50  0001 C CNN
-F 3 "~" H 8600 5600 50  0001 C CNN
-	1    8600 5600
-	1    0    0    -1  
+P 8600 5700
+F 0 "J13" H 8572 5582 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 8572 5673 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8600 5700 50  0001 C CNN
+F 3 "~" H 8600 5700 50  0001 C CNN
+	1    8600 5700
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0106
