@@ -787,14 +787,14 @@ Wire Wire Line
 Wire Wire Line
 	6200 3000 6300 3000
 $Comp
-L Connector:Conn_01x08_Male J10
+L Connector:Conn_01x06_Male J10
 U 1 1 5ED7FDFD
-P 7850 2200
-F 0 "J10" H 7958 2681 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 7958 2590 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 7850 2200 50  0001 C CNN
-F 3 "~" H 7850 2200 50  0001 C CNN
-	1    7850 2200
+P 7850 2100
+F 0 "J10" H 7958 2481 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 7958 2390 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 7850 2100 50  0001 C CNN
+F 3 "~" H 7850 2100 50  0001 C CNN
+	1    7850 2100
 	1    0    0    -1  
 $EndComp
 Text GLabel 8150 1900 2    50   Input ~ 0
@@ -803,34 +803,10 @@ Text GLabel 8150 2100 2    50   Input ~ 0
 S_CLK
 Text GLabel 8150 2000 2    50   Input ~ 0
 CS
-Text GLabel 8150 2300 2    50   Input ~ 0
+Text GLabel 8150 2200 2    50   Input ~ 0
 CLEAR
-Text GLabel 8150 2400 2    50   Input ~ 0
+Text GLabel 8150 2300 2    50   Input ~ 0
 ENABLE
-Text GLabel 8150 2600 2    50   Input ~ 0
-CARRY_OUT
-$Comp
-L power:GND #PWR0102
-U 1 1 5ED82C84
-P 8350 2200
-F 0 "#PWR0102" H 8350 1950 50  0001 C CNN
-F 1 "GND" H 8355 2027 50  0000 C CNN
-F 2 "" H 8350 2200 50  0001 C CNN
-F 3 "" H 8350 2200 50  0001 C CNN
-	1    8350 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5ED833B2
-P 8500 2500
-F 0 "#PWR0103" H 8500 2250 50  0001 C CNN
-F 1 "GND" H 8505 2327 50  0000 C CNN
-F 2 "" H 8500 2500 50  0001 C CNN
-F 3 "" H 8500 2500 50  0001 C CNN
-	1    8500 2500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8050 1900 8150 1900
 Wire Wire Line
@@ -838,24 +814,18 @@ Wire Wire Line
 Wire Wire Line
 	8050 2100 8150 2100
 Wire Wire Line
-	8050 2200 8350 2200
+	8050 2200 8150 2200
 Wire Wire Line
 	8050 2300 8150 2300
-Wire Wire Line
-	8050 2400 8150 2400
-Wire Wire Line
-	8050 2600 8150 2600
-Wire Wire Line
-	8050 2500 8500 2500
 $Comp
-L Connector:Conn_01x08_Male J11
+L Connector:Conn_01x06_Male J11
 U 1 1 5EDB5AB8
-P 8050 3400
-F 0 "J11" H 8158 3881 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 8158 3790 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8050 3400 50  0001 C CNN
-F 3 "~" H 8050 3400 50  0001 C CNN
-	1    8050 3400
+P 8050 3300
+F 0 "J11" H 8158 3681 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 8158 3590 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8050 3300 50  0001 C CNN
+F 3 "~" H 8050 3300 50  0001 C CNN
+	1    8050 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -873,21 +843,11 @@ Wire Wire Line
 	8250 3100 8350 3100
 Wire Wire Line
 	8350 3100 8350 3200
-Wire Wire Line
-	8350 3800 8250 3800
 Connection ~ 8350 3100
 Wire Wire Line
 	8350 3100 8450 3100
 Wire Wire Line
-	8250 3700 8350 3700
-Connection ~ 8350 3700
-Wire Wire Line
-	8350 3700 8350 3800
-Wire Wire Line
 	8250 3600 8350 3600
-Connection ~ 8350 3600
-Wire Wire Line
-	8350 3600 8350 3700
 Wire Wire Line
 	8250 3500 8350 3500
 Connection ~ 8350 3500
@@ -907,37 +867,27 @@ Wire Wire Line
 	8250 3200 8350 3200
 Connection ~ 8350 3200
 Wire Wire Line
-	8350 3200 8350 3300
+	8350 3200 8350 3250
 $Comp
-L Connector:Conn_01x08_Male J12
+L Connector:Conn_01x06_Male J12
 U 1 1 5EDDE8A4
-P 8300 4450
-F 0 "J12" H 8408 4931 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 8408 4840 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8300 4450 50  0001 C CNN
-F 3 "~" H 8300 4450 50  0001 C CNN
-	1    8300 4450
+P 8300 4350
+F 0 "J12" H 8408 4731 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 8408 4640 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical" H 8300 4350 50  0001 C CNN
+F 3 "~" H 8300 4350 50  0001 C CNN
+	1    8300 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8500 4150 8600 4150
 Wire Wire Line
 	8600 4150 8600 4250
-Wire Wire Line
-	8600 4850 8500 4850
 Connection ~ 8600 4150
 Wire Wire Line
 	8600 4150 8700 4150
 Wire Wire Line
-	8500 4750 8600 4750
-Connection ~ 8600 4750
-Wire Wire Line
-	8600 4750 8600 4850
-Wire Wire Line
 	8500 4650 8600 4650
-Connection ~ 8600 4650
-Wire Wire Line
-	8600 4650 8600 4750
 Wire Wire Line
 	8500 4550 8600 4550
 Connection ~ 8600 4550
@@ -970,7 +920,7 @@ F 3 "" H 8700 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J13
+L Connector:Conn_01x06_Male J13
 U 1 1 5EDE6D3F
 P 8600 5700
 F 0 "J13" H 8572 5582 50  0000 R CNN
@@ -1003,13 +953,6 @@ F 3 "" H 9150 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 5300 8950 5300
-Wire Wire Line
-	8800 5600 8950 5600
-Wire Wire Line
-	8950 5600 8950 5500
-Connection ~ 8950 5300
-Wire Wire Line
 	8950 5300 9150 5300
 Wire Wire Line
 	8800 5400 8950 5400
@@ -1018,7 +961,6 @@ Wire Wire Line
 	8950 5400 8950 5300
 Wire Wire Line
 	8800 5500 8950 5500
-Connection ~ 8950 5500
 Wire Wire Line
 	8950 5500 8950 5450
 Wire Wire Line
@@ -1030,18 +972,9 @@ Wire Wire Line
 Connection ~ 9150 5800
 Wire Wire Line
 	9150 5800 9150 5900
-Wire Wire Line
-	8800 5900 8950 5900
 Connection ~ 9150 5900
 Wire Wire Line
 	9150 5900 9150 6000
-Wire Wire Line
-	8800 6000 8950 6000
-Wire Wire Line
-	8950 6000 8950 5900
-Connection ~ 8950 5900
-Wire Wire Line
-	8950 5900 9150 5900
 $Comp
 L Device:C C1
 U 1 1 5EE9D0A9
@@ -1092,4 +1025,69 @@ Wire Wire Line
 Connection ~ 9200 5750
 Wire Wire Line
 	9200 5750 9300 5750
+$Comp
+L Device:CP C3
+U 1 1 5EEDA483
+P 8700 3500
+F 0 "C3" H 8818 3546 50  0000 L CNN
+F 1 "10uf" H 8818 3455 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 8738 3350 50  0001 C CNN
+F 3 "~" H 8700 3500 50  0001 C CNN
+	1    8700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 5EEDB0CE
+P 9150 3500
+F 0 "C4" H 9268 3546 50  0000 L CNN
+F 1 "10uf" H 9268 3455 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9188 3350 50  0001 C CNN
+F 3 "~" H 9150 3500 50  0001 C CNN
+	1    9150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EEDB728
+P 9150 3750
+F 0 "#PWR0102" H 9150 3500 50  0001 C CNN
+F 1 "GND" H 9155 3577 50  0000 C CNN
+F 2 "" H 9150 3750 50  0001 C CNN
+F 3 "" H 9150 3750 50  0001 C CNN
+	1    9150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3250 8700 3250
+Wire Wire Line
+	9150 3250 9150 3350
+Connection ~ 8350 3250
+Wire Wire Line
+	8350 3250 8350 3300
+Wire Wire Line
+	8700 3350 8700 3250
+Connection ~ 8700 3250
+Wire Wire Line
+	8700 3250 9150 3250
+Wire Wire Line
+	9150 3650 9150 3700
+Wire Wire Line
+	8700 3650 8700 3700
+Wire Wire Line
+	8700 3700 9150 3700
+Connection ~ 9150 3700
+Wire Wire Line
+	9150 3700 9150 3750
+Wire Wire Line
+	8800 5600 8950 5600
+Wire Wire Line
+	8950 5600 8950 5500
+Connection ~ 8950 5500
+Wire Wire Line
+	8800 5900 9150 5900
+Wire Wire Line
+	8050 2400 8150 2400
+Text GLabel 8150 2400 2    50   Input ~ 0
+CARRY_OUT
 $EndSCHEMATC
