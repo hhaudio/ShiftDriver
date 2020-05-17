@@ -1020,11 +1020,11 @@ Wire Wire Line
 	8800 5500 8950 5500
 Connection ~ 8950 5500
 Wire Wire Line
-	8950 5500 8950 5400
+	8950 5500 8950 5450
 Wire Wire Line
 	8800 5700 9150 5700
 Wire Wire Line
-	9150 5700 9150 5800
+	9150 5700 9150 5750
 Wire Wire Line
 	8800 5800 9150 5800
 Connection ~ 9150 5800
@@ -1042,4 +1042,54 @@ Wire Wire Line
 Connection ~ 8950 5900
 Wire Wire Line
 	8950 5900 9150 5900
+$Comp
+L Device:C C1
+U 1 1 5EE9D0A9
+P 9300 5600
+F 0 "C1" H 9415 5646 50  0000 L CNN
+F 1 "0.1uf" H 9415 5555 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 9338 5450 50  0001 C CNN
+F 3 "~" H 9300 5600 50  0001 C CNN
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 5450 9200 5450
+Connection ~ 8950 5450
+Wire Wire Line
+	8950 5450 8950 5400
+Wire Wire Line
+	9150 5750 9200 5750
+Connection ~ 9150 5750
+Wire Wire Line
+	9150 5750 9150 5800
+$Comp
+L Device:CP C2
+U 1 1 5EEAD2D3
+P 9750 5600
+F 0 "C2" H 9868 5646 50  0000 L CNN
+F 1 "10uf" H 9868 5555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 9788 5450 50  0001 C CNN
+F 3 "~" H 9750 5600 50  0001 C CNN
+	1    9750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5450 9200 5350
+Wire Wire Line
+	9200 5350 9750 5350
+Wire Wire Line
+	9750 5350 9750 5450
+Connection ~ 9200 5450
+Wire Wire Line
+	9200 5450 9300 5450
+Wire Wire Line
+	9200 5750 9200 5800
+Wire Wire Line
+	9200 5800 9750 5800
+Wire Wire Line
+	9750 5800 9750 5750
+Connection ~ 9200 5750
+Wire Wire Line
+	9200 5750 9300 5750
 $EndSCHEMATC
