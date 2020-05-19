@@ -415,13 +415,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J1
 U 1 1 5EC4D5AD
-P 3150 3750
-F 0 "J1" H 3178 3726 50  0000 L CNN
-F 1 "CONN" H 3178 3635 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 3150 3750 50  0001 C CNN
-F 3 "~" H 3150 3750 50  0001 C CNN
-	1    3150 3750
-	1    0    0    -1  
+P 3150 3850
+F 0 "J1" H 3178 3826 50  0000 L CNN
+F 1 "CONN" H 3178 3735 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 3150 3850 50  0001 C CNN
+F 3 "~" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR06
@@ -441,13 +441,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J2
 U 1 1 5EC5396B
-P 3650 3850
-F 0 "J2" H 3678 3826 50  0000 L CNN
-F 1 "CONN" H 3678 3735 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 3650 3850 50  0001 C CNN
-F 3 "~" H 3650 3850 50  0001 C CNN
-	1    3650 3850
-	1    0    0    -1  
+P 3650 3950
+F 0 "J2" H 3678 3926 50  0000 L CNN
+F 1 "CONN" H 3678 3835 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 3650 3950 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+	1    3650 3950
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR07
@@ -465,13 +465,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J3
 U 1 1 5EC5664B
-P 4250 3950
-F 0 "J3" H 4278 3926 50  0000 L CNN
-F 1 "CONN" H 4278 3835 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 4250 3950 50  0001 C CNN
-F 3 "~" H 4250 3950 50  0001 C CNN
-	1    4250 3950
-	1    0    0    -1  
+P 4250 4050
+F 0 "J3" H 4278 4026 50  0000 L CNN
+F 1 "CONN" H 4278 3935 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 4250 4050 50  0001 C CNN
+F 3 "~" H 4250 4050 50  0001 C CNN
+	1    4250 4050
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR08
@@ -489,13 +489,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J4
 U 1 1 5EC56661
-P 4750 4050
-F 0 "J4" H 4778 4026 50  0000 L CNN
-F 1 "CONN" H 4778 3935 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 4750 4050 50  0001 C CNN
-F 3 "~" H 4750 4050 50  0001 C CNN
-	1    4750 4050
-	1    0    0    -1  
+P 4750 4150
+F 0 "J4" H 4778 4126 50  0000 L CNN
+F 1 "CONN" H 4778 4035 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 4750 4150 50  0001 C CNN
+F 3 "~" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR09
@@ -519,13 +519,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J5
 U 1 1 5EC7C964
-P 5250 4150
-F 0 "J5" H 5278 4126 50  0000 L CNN
-F 1 "CONN" H 5278 4035 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 5250 4150 50  0001 C CNN
-F 3 "~" H 5250 4150 50  0001 C CNN
-	1    5250 4150
-	1    0    0    -1  
+P 5250 4250
+F 0 "J5" H 5278 4226 50  0000 L CNN
+F 1 "CONN" H 5278 4135 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 5250 4250 50  0001 C CNN
+F 3 "~" H 5250 4250 50  0001 C CNN
+	1    5250 4250
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR010
@@ -543,13 +543,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J6
 U 1 1 5EC7C97A
-P 5750 4250
-F 0 "J6" H 5778 4226 50  0000 L CNN
-F 1 "CONN" H 5778 4135 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 5750 4250 50  0001 C CNN
-F 3 "~" H 5750 4250 50  0001 C CNN
-	1    5750 4250
-	1    0    0    -1  
+P 5750 4350
+F 0 "J6" H 5778 4326 50  0000 L CNN
+F 1 "CONN" H 5778 4235 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 5750 4350 50  0001 C CNN
+F 3 "~" H 5750 4350 50  0001 C CNN
+	1    5750 4350
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR011
@@ -567,13 +567,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J7
 U 1 1 5EC7C98F
-P 6350 4350
-F 0 "J7" H 6378 4326 50  0000 L CNN
-F 1 "CONN" H 6378 4235 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 6350 4350 50  0001 C CNN
-F 3 "~" H 6350 4350 50  0001 C CNN
-	1    6350 4350
-	1    0    0    -1  
+P 6350 4450
+F 0 "J7" H 6378 4426 50  0000 L CNN
+F 1 "CONN" H 6378 4335 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 6350 4450 50  0001 C CNN
+F 3 "~" H 6350 4450 50  0001 C CNN
+	1    6350 4450
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR012
@@ -591,13 +591,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Female J8
 U 1 1 5EC7C9A4
-P 6850 4450
-F 0 "J8" H 6878 4426 50  0000 L CNN
-F 1 "CONN" H 6878 4335 50  0000 L CNN
-F 2 "HammerheadAudio:Phoenix_Stacked" H 6850 4450 50  0001 C CNN
-F 3 "~" H 6850 4450 50  0001 C CNN
-	1    6850 4450
-	1    0    0    -1  
+P 6850 4550
+F 0 "J8" H 6878 4526 50  0000 L CNN
+F 1 "CONN" H 6878 4435 50  0000 L CNN
+F 2 "HammerheadAudio:Phoenix_Stacked" H 6850 4550 50  0001 C CNN
+F 3 "~" H 6850 4550 50  0001 C CNN
+	1    6850 4550
+	1    0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR013
